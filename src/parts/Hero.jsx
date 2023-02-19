@@ -4,7 +4,10 @@ import Text from '../components/Text'
 export default function Hero() {
   return (
     <>
-        <div className='h-auto flex'>
+    <div className='h-screen w-full absolute bg-gradient-to-b from-black opacity-50 to-transparent z-10'>
+
+    </div>
+        <div className='h-auto flex w-full'>
             <div className='basis-5/12 h-screen bg-[#262626] relative'>
                 <img src='./src/assets/dotRectangle.svg' alt='dot' className='scale-75 absolute -left-10 top-28'></img>
                 <div className='absolute bottom-32 -right-12 z-10 ='>

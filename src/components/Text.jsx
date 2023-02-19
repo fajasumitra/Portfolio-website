@@ -3,7 +3,7 @@ import React from 'react'
 export default function Text(props){       
     const className = [props.className]
     if (props.isSmall) className.push('text-sm')
-    if (props.isMedium) className.push('text-md')
+    if (props.isNormal) className.push('text-md')
     if (props.isLarge) className.push('text-lg')
     if (props.is1Large) className.push('text-xl')
     if (props.is2Large) className.push('text-2xl')
